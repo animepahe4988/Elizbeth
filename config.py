@@ -3,7 +3,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 # Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7006740293:AAF7_wLTOTmPinvJeCyMojsWAT2B4vp0s4o")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7339866844:AAGVfvS_26UF2bkJq1Ahm6QyUt_UZ0Qy4Ns")
 
 # Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "23902408"))
@@ -12,7 +12,7 @@ APP_ID = int(os.environ.get("APP_ID", "23902408"))
 API_HASH = os.environ.get("API_HASH", "6a36a4ef2f07d63aeba7b53b99c64d73")
 
 # Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002219424361"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002213021629"))
 
 # OWNER ID
 OWNER_ID = int(os.environ.get("OWNER_ID", "7179837246"))
@@ -22,11 +22,11 @@ PORT = os.environ.get("PORT", "8080")
 
 # Database
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://mex:rex@cluster7.jrzowqz.mongodb.net/?retryWrites=true&w=majority")
-DB_NAME = os.environ.get("DATABASE_NAME", "gamdu")
+DB_NAME = os.environ.get("DATABASE_NAME", "Chuttiya")
 
 # Force sub channel id, if you want enable force sub
-FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002173795861"))
-FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002014057951"))
+FORCE_CHANNEL = int(os.environ.get("FORCE_CHANNEL", "-1002044619047"))
+FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002044619047"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -35,11 +35,11 @@ START_PIC = os.environ.get("START_PIC", "https://graph.org/file/b1549fd4bc4a2b7d
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/3ab8716b37894ef7460e9.jpg")
 
 # Add your text according to you
-HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Movies_Series_Universe\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Developed by <a href=https://t.me/RarelySukuna>Hōᴛᴀʀō Oʀᴇᴋɪ</a></b>"
-ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/RarelySukuna>S U K U N A</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Movies_Series_Universe>ᴀɴɪᴍᴇ x ʜᴜɴᴛᴇʀꜱ</a>\n◈ ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Ongoing_Anime_X_Hunter>ᴏɴɢᴏɪɴɢ ʜᴜɴᴛᴇʀꜱ</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/RarelySukuna>Sᴇɪꜱʜɪʀᴏ Nᴀɢɪ</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
+HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Anime_Bloodline\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Developed by <a href=https://t.me/RarelySukuna>S U K U N A</a></b>"
+ABOUT_TXT = "<b>⟦⟧ Hi There {first}!💫\n┏━━━━━━━❪❂❫━━━━━━━━\n◈ ᴄʀᴇᴀᴛᴏʀ: <a href=https://t.me/RarelySukuna>S U K U N A</a>\n◈ ꜰᴏᴜɴᴅᴇʀ ᴏꜰ : <a href=https://t.me/Anime_Bloodline>ᴀɴɪᴍᴇ Bloodlina</a>\n◈ ᴏɴɢᴏɪɴɢ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Ongoing_Anime_Bloodline>ᴏɴɢᴏɪɴɢ Bloodline</a>\n◈ Lɪʙʀᴀʀy : <a href=https://github.com/pyrogram>Pyʀᴏɢʀᴀᴍ</a>\n◈ ᴍʏ ꜱᴇʀᴠᴇʀ : <a href=https://dashboard.heroku.com>Heroku</a>\n◈ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/RarelySukuna>S U K U N A</a>\n┗━━━━━━━❪❂❫━━━━━━━━</b>"
 
 # start message
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Movies_Series_Universe</b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ʜɪ ᴛʜᴇʀᴇ... {first}! 💥\n\nɪ ᴀᴍ ᴀ ꜰɪʟᴇ ꜱᴛᴏʀᴇ ʙᴏᴛ...!\nɪ ᴄᴀɴ ᴘʀᴏᴠɪᴅᴇ ᴘʀɪᴠᴀᴛᴇ ꜰɪʟᴇꜱ ᴛʜʀᴏᴜɢʜ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ʟɪɴᴋ....!\nᴘᴏᴡᴇʀᴇᴅ ʙʏ - @Anime_Bloodline</b>")
 try:
     ADMINS=[7179837246]
     for x in (os.environ.get("ADMINS", "7179837246").split()):
