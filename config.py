@@ -31,8 +31,8 @@ FORCE_CHANNEL2 = int(os.environ.get("FORCE_CHANNEL2", "-1002044619047"))
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 # Mainly add graph else telegraph link
-START_PIC = os.environ.get("START_PIC", "")
-FORCE_PIC = os.environ.get("FORCE_PIC", "")
+START_PIC = os.environ.get("START_PIC", "https://envs.sh/qdw.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://envs.sh/qdw.jpg")
 
 # Add your text according to you
 HELP_TXT = "<b>Hi Dude!\nThis is an file to link bot work for @Anime_Bloodline\n\n❏ Bot Cammands\n├/start : start the bot\n├/about : Our Information\n└/help : Help related Bot\n\n💥 Simply click on link and start the bot join both channels and try again thats it.....!\n\n🧑‍💻Developed by <a href=https://t.me/RarelySukuna>S U K U N A</a></b>"
